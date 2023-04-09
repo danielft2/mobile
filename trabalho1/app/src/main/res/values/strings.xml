@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">trabalho1</string>
+    <string name="welcome_text">Olá, ficamos feliz em tê-lo aqui.</string>
+    <string name="welcome_subtitle">Entre e cadastre seus funcionários.</string>
+    <string name="button_enter">Entrar agora</string>
+    <string name="professionals_ic_text">Profissionais</string>
+    <string name="novo_profissional_ic_text">Novo Profissional</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="edit_hint_name">Nome</string>
+    <string name="edit_hint_function">Função</string>
+    <string name="text_new_professional">Novo Profissional</string>
+    <string name="radio_boy">Homem</string>
+    <string name="radio_girl">Mulher</string>
+    <string name="button_add_professional">Adicionar</string>
+
+    <string name="validation_fields">Preencha todos os campos</string>
+    <string name="toggle_text">Tem acesso especial</string>
+    <string name="list_professionals">Lista de Profissionais</string>
+
+    <string-array name="functions">
+        <item>Operador</item>
+        <item>Supervisor</item>
+    </string-array>
+</resources>

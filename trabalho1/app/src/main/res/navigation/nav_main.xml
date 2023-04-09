@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_main"
+    app:startDestination="@id/professionals_add">
+
+    <fragment
+        android:id="@+id/professionals_list"
+        android:name="com.example.trabalho1.fragments.ProfessionalsFragment"
+        android:label="fragment_professionals"
+        tools:layout="@layout/fragment_professionals" />
+    <fragment
+        android:id="@+id/professionals_add"
+        android:name="com.example.trabalho1.fragments.NewProfessionalFragment"
+        android:label="fragment_new_professional"
+        tools:layout="@layout/fragment_new_professional" />
+</navigation>

@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.NewProfessionalFragment"
+    android:background="@color/white"
+    android:padding="12dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/text_new_professional"
+            android:textColor="@color/black"
+            android:fontFamily="@font/poppins_medium"
+            android:textSize="18sp"
+            android:layout_marginBottom="14dp" />
+
+        <EditText
+            android:id="@+id/edit_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="12dp"
+            android:hint="@string/edit_hint_name"
+            android:background="@color/gray_200"
+            android:textColorHint="@color/gray_800"
+            android:textColor="@color/black"
+            android:fontFamily="@font/poppins"
+            android:textSize="14sp"
+            android:layout_marginBottom="16dp" />
+
+        <Spinner
+            android:id="@+id/spinner_function"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:entries="@array/functions"
+            android:padding="12dp"
+            android:background="@color/gray_200"
+            android:textColorHint="@color/gray_800"
+            android:layout_marginBottom="16dp">
+        </Spinner>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ToggleButton
+                android:id="@+id/toogle_acess"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="6dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/toggle_text"
+                android:textColor="@color/gray_800"
+                android:fontFamily="@font/poppins" />
+
+        </LinearLayout>
+
+        <RadioGroup
+            android:id="@+id/radioGroup_sex"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/radio_boy"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/radio_boy"
+                android:textColor="@color/gray_800"
+                android:fontFamily="@font/poppins" />
+
+            <RadioButton
+                android:id="@+id/radio_girl"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/radio_girl"
+                android:textColor="@color/gray_800"
+                android:layout_marginEnd="6dp"
+                android:fontFamily="@font/poppins" />
+        </RadioGroup>
+
+        <Button
+            android:id="@+id/button_new_professional"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/button_add_professional"
+            android:padding="12dp"
+            />
+
+    </LinearLayout>
+
+</FrameLayout>

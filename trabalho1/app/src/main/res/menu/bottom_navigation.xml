@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/professionals_list"
+        android:icon="@drawable/ic_professionals"
+        android:title="@string/professionals_ic_text" />
+
+    <item
+        android:id="@+id/professionals_add"
+        android:icon="@drawable/ic_add"
+        android:title="@string/novo_profissional_ic_text" />
+</menu>
